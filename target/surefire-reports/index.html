@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Groups" class="navigator-link">
+              <span class="suite-name border-passed">Groups</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Groups" class="navigator-link ">
+                    <span>D:\DucThanh\demoblaze\grouping.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Groups" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Groups" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Groups" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Groups" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Groups" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Groups" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Groups" class="hide-methods passed suite-Groups"> (hide)</a> <!-- hide-methods passed suite-Groups -->
+                      <a href="#" panel-name="suite-Groups" class="show-methods passed suite-Groups"> (show)</a> <!-- show-methods passed suite-Groups -->
+                    </span>
+                    <div class="method-list-content passed suite-Groups">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyCarouselAutoSlides">verifyCarouselAutoSlides</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyCarouselHasThreeSlides">verifyCarouselHasThreeSlides</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyCarouselIsDisplayed">verifyCarouselIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyClickNextOnCarousel">verifyClickNextOnCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyClickPrevOnCarousel">verifyClickPrevOnCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyLogoIsDisplayed">verifyLogoIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyNavbarItemsDisplayed">verifyNavbarItemsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Groups" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyProductListIsVisible">verifyProductListIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Groups -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Groups" class="panel Groups">
+          <div class="suite-Groups-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarouselAutoSlides">
+                  </a> <!-- verifyCarouselAutoSlides -->
+                  <span class="method-name">verifyCarouselAutoSlides</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarouselHasThreeSlides">
+                  </a> <!-- verifyCarouselHasThreeSlides -->
+                  <span class="method-name">verifyCarouselHasThreeSlides</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCarouselIsDisplayed">
+                  </a> <!-- verifyCarouselIsDisplayed -->
+                  <span class="method-name">verifyCarouselIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickNextOnCarousel">
+                  </a> <!-- verifyClickNextOnCarousel -->
+                  <span class="method-name">verifyClickNextOnCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickPrevOnCarousel">
+                  </a> <!-- verifyClickPrevOnCarousel -->
+                  <span class="method-name">verifyClickPrevOnCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoIsDisplayed">
+                  </a> <!-- verifyLogoIsDisplayed -->
+                  <span class="method-name">verifyLogoIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavbarItemsDisplayed">
+                  </a> <!-- verifyNavbarItemsDisplayed -->
+                  <span class="method-name">verifyNavbarItemsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductListIsVisible">
+                  </a> <!-- verifyProductListIsVisible -->
+                  <span class="method-name">verifyProductListIsVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Groups-class-passed -->
+        </div> <!-- panel Groups -->
+        <div panel-name="test-xml-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DucThanh\demoblaze\grouping.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Groups&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;ui&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;ui&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;tests.LogInTest&quot;/&gt;
+      &lt;class name=&quot;tests.AboutUsPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.ContactPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Groups --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductListIsVisible</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ui</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCarouselAutoSlides</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCarouselHasThreeSlides</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCarouselIsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyClickNextOnCarousel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyClickPrevOnCarousel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogoIsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyNavbarItemsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductListIsVisible</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Groups');
+function tableData_Groups() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCarouselAutoSlides')
+data.setCell(0, 2, 'tests.HomePageTest')
+data.setCell(0, 3, 4800);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyClickPrevOnCarousel')
+data.setCell(1, 2, 'tests.HomePageTest')
+data.setCell(1, 3, 1180);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyClickNextOnCarousel')
+data.setCell(2, 2, 'tests.HomePageTest')
+data.setCell(2, 3, 671);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductListIsVisible')
+data.setCell(3, 2, 'tests.HomePageTest')
+data.setCell(3, 3, 195);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLogoIsDisplayed')
+data.setCell(4, 2, 'tests.HomePageTest')
+data.setCell(4, 3, 139);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyNavbarItemsDisplayed')
+data.setCell(5, 2, 'tests.HomePageTest')
+data.setCell(5, 3, 123);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCarouselIsDisplayed')
+data.setCell(6, 2, 'tests.HomePageTest')
+data.setCell(6, 3, 25);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCarouselHasThreeSlides')
+data.setCell(7, 2, 'tests.HomePageTest')
+data.setCell(7, 3, 16);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHomePageTitle')
+data.setCell(8, 2, 'tests.HomePageTest')
+data.setCell(8, 3, 14);
+window.suiteTableData['Groups']= { tableData: data, tableDiv: 'times-div-Groups'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Groups">
+              </div> <!-- times-div-Groups -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">18 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AboutUsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyOpenAndClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyContactPopup</span>
+                <br/>
+                <span class="ignored-method-name">verifyAboutUsPopup</span>
+                <br/>
+                <span class="ignored-method-name">verifyCartPageNavigation</span>
+                <br/>
+                <span class="ignored-method-name">verifyDeleteProductFromCart</span>
+                <br/>
+                <span class="ignored-method-name">verifyNextPageNavigation</span>
+                <br/>
+                <span class="ignored-method-name">verifySignUpPopup</span>
+                <br/>
+                <span class="ignored-method-name">verifyFilterLaptops</span>
+                <br/>
+                <span class="ignored-method-name">verifyCheckOutSuccessful</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddtoCart</span>
+                <br/>
+                <span class="ignored-method-name">verifyProductDetailNavigation</span>
+                <br/>
+                <span class="ignored-method-name">verifyFilterMonitors</span>
+                <br/>
+                <span class="ignored-method-name">verifyLoginPopup</span>
+                <br/>
+                <span class="ignored-method-name">verifyFilterPhones</span>
+                <br/>
+                <span class="ignored-method-name">verifyPrevPageNavigation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SignUpTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifySignUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ContactPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyInputContact</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LogInTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyLogin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">3347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoIsDisplayed</span>
+                <span class="method-start">3388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyNavbarItemsDisplayed</span>
+                <span class="method-start">3529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCarouselHasThreeSlides</span>
+                <span class="method-start">3653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCarouselIsDisplayed</span>
+                <span class="method-start">3671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCarouselAutoSlides</span>
+                <span class="method-start">3698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyClickNextOnCarousel</span>
+                <span class="method-start">8499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyClickPrevOnCarousel</span>
+                <span class="method-start">9171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductListIsVisible</span>
+                <span class="method-start">10352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10548 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

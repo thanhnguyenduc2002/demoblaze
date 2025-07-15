@@ -1,0 +1,63 @@
+[INFO ] 14-07-2025 22:49:35 [main] BaseTest - Running test: verifyAboutUsPopup
+[INFO ] 14-07-2025 22:49:36 [main] BaseTest - About Us popup is displayed
+[INFO ] 14-07-2025 22:49:36 [main] BaseTest - Running test: verifySignUpPopup
+[INFO ] 14-07-2025 22:49:37 [main] BaseTest - Sign up popup is displayed
+[INFO ] 14-07-2025 22:49:37 [main] BaseTest - Running test: verifyAddtoCart
+[INFO ] 14-07-2025 22:49:39 [main] BaseTest - Add to cart successful
+[INFO ] 14-07-2025 22:49:39 [main] BaseTest - Running test: verifyDeleteProductFromCart
+[INFO ] 14-07-2025 22:49:44 [main] BaseTest - Product deleted from cart successfully
+[INFO ] 14-07-2025 22:49:44 [main] BaseTest - Running test: verifyCheckOutSuccessful
+[INFO ] 14-07-2025 22:49:49 [main] BaseTest - Checkout process completed successfully
+[INFO ] 14-07-2025 22:49:49 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 14-07-2025 22:49:49 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 14-07-2025 22:49:50 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 22:49:51 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 22:49:52 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Carousel auto-slide verified
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyProductListIsVisible
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - ------List of Product------
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyFilterPhones
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyFilterLaptops
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyFilterMonitors
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyNextPageNavigation
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyPrevPageNavigation
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyProductDetailNavigation
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyCartPageNavigation
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyContactPopup
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyLoginPopup
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyAboutUsPopup
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifySignUpPopup
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyAddtoCart
+[INFO ] 14-07-2025 22:49:58 [main] BaseTest - Running test: verifyDeleteProductFromCart
+[INFO ] 14-07-2025 22:49:59 [main] BaseTest - Running test: verifyCheckOutSuccessful
+[INFO ] 14-07-2025 22:49:59 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 14-07-2025 22:49:59 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 14-07-2025 22:54:52 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\Parallel.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 14-07-2025 22:54:52 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\Parallel.xml
+
+[INFO ] 14-07-2025 22:54:53 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 22:54:54 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 14-07-2025 22:54:55 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 22:54:56 [main] BaseTest - Running test: verifyCarouselAutoSlides

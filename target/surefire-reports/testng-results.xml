@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="27" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T15:44:40 ICT" name="Groups" finished-at="2025-07-15T15:44:51 ICT" duration-ms="10987">
+    <groups>
+      <group name="ui">
+        <method signature="HomePageTest.verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@38aa816f]" name="verifyHomePageTitle" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyLogoIsDisplayed()[pri:2, instance:tests.HomePageTest@38aa816f]" name="verifyLogoIsDisplayed" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyNavbarItemsDisplayed()[pri:3, instance:tests.HomePageTest@38aa816f]" name="verifyNavbarItemsDisplayed" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCarouselHasThreeSlides()[pri:4, instance:tests.HomePageTest@38aa816f]" name="verifyCarouselHasThreeSlides" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCarouselIsDisplayed()[pri:5, instance:tests.HomePageTest@38aa816f]" name="verifyCarouselIsDisplayed" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCarouselAutoSlides()[pri:6, instance:tests.HomePageTest@38aa816f]" name="verifyCarouselAutoSlides" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickNextOnCarousel()[pri:7, instance:tests.HomePageTest@38aa816f]" name="verifyClickNextOnCarousel" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickPrevOnCarousel()[pri:8, instance:tests.HomePageTest@38aa816f]" name="verifyClickPrevOnCarousel" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@38aa816f]" name="verifyProductListIsVisible" class="tests.HomePageTest"/>
+      </group> <!-- ui -->
+      <group name="sanity">
+        <method signature="HomePageTest.verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@38aa816f]" name="verifyHomePageTitle" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@38aa816f]" name="verifyProductListIsVisible" class="tests.HomePageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-07-15T15:44:40 ICT" name="Test" finished-at="2025-07-15T15:44:51 ICT" duration-ms="10987">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:40 ICT" name="setup" finished-at="2025-07-15T15:44:44 ICT" duration-ms="3333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:44 ICT" name="verifyHomePageTitle" finished-at="2025-07-15T15:44:44 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="verifyLogoIsDisplayed()[pri:2, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:44 ICT" name="verifyLogoIsDisplayed" finished-at="2025-07-15T15:44:44 ICT" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoIsDisplayed -->
+        <test-method signature="verifyNavbarItemsDisplayed()[pri:3, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:44 ICT" name="verifyNavbarItemsDisplayed" finished-at="2025-07-15T15:44:44 ICT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavbarItemsDisplayed -->
+        <test-method signature="verifyCarouselHasThreeSlides()[pri:4, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:44 ICT" name="verifyCarouselHasThreeSlides" finished-at="2025-07-15T15:44:44 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarouselHasThreeSlides -->
+        <test-method signature="verifyCarouselIsDisplayed()[pri:5, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:44 ICT" name="verifyCarouselIsDisplayed" finished-at="2025-07-15T15:44:44 ICT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarouselIsDisplayed -->
+        <test-method signature="verifyCarouselAutoSlides()[pri:6, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:44 ICT" name="verifyCarouselAutoSlides" finished-at="2025-07-15T15:44:49 ICT" duration-ms="4800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarouselAutoSlides -->
+        <test-method signature="verifyClickNextOnCarousel()[pri:7, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:49 ICT" name="verifyClickNextOnCarousel" finished-at="2025-07-15T15:44:50 ICT" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickNextOnCarousel -->
+        <test-method signature="verifyClickPrevOnCarousel()[pri:8, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:50 ICT" name="verifyClickPrevOnCarousel" finished-at="2025-07-15T15:44:51 ICT" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickPrevOnCarousel -->
+        <test-method signature="verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:51 ICT" name="verifyProductListIsVisible" finished-at="2025-07-15T15:44:51 ICT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductListIsVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@38aa816f]" started-at="2025-07-15T15:44:51 ICT" name="tearDown" finished-at="2025-07-15T15:44:51 ICT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Groups -->
+</testng-results>

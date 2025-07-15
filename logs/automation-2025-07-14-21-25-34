@@ -1,0 +1,59 @@
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 21:22:41 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 14-07-2025 21:22:47 [main] BaseTest - Carousel auto-slide verified
+[INFO ] 14-07-2025 21:22:47 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 14-07-2025 21:22:47 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 14-07-2025 21:22:47 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 14-07-2025 21:22:48 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 14-07-2025 21:22:48 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 14-07-2025 21:22:49 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 14-07-2025 21:24:49 [main] TestNGContentHandler - Failed to read [/D:/DucThanh/demoblaze/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///D:/DucThanh/demoblaze/testng-1.0.dtd].
+[WARN ] 14-07-2025 21:24:49 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\grouping.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 14-07-2025 21:24:49 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\grouping.xml
+
+[INFO ] 14-07-2025 21:24:49 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 21:24:50 [main] BaseTest - Launched Chrome browser
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 21:24:52 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 14-07-2025 21:24:57 [main] BaseTest - Carousel auto-slide verified
+[INFO ] 14-07-2025 21:24:57 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 14-07-2025 21:24:57 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 14-07-2025 21:24:57 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 14-07-2025 21:24:58 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 14-07-2025 21:24:58 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 14-07-2025 21:24:59 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 14-07-2025 21:25:26 [main] TestNGContentHandler - Failed to read [/D:/DucThanh/demoblaze/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///D:/DucThanh/demoblaze/testng-1.0.dtd].
+[WARN ] 14-07-2025 21:25:26 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\grouping.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 14-07-2025 21:25:26 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\grouping.xml
+
+[INFO ] 14-07-2025 21:25:26 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 21:25:27 [main] BaseTest - Launched Chrome browser
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 21:25:29 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 14-07-2025 21:25:34 [main] BaseTest - Carousel auto-slide verified

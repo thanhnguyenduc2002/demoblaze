@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Groups">
+<groups>
+	<run>
+		<include name ="ui"/>
+<!-- 		<include name ="aboutus"/> -->
+<!-- 		<include name ="login"/> -->
+<!-- 		<include name ="signup"/> -->
+<!-- 		<include name ="contact"/> -->
+<!-- 		<include name ="cart"/> -->
+<!-- 		<include name ="smoke"/> -->
+<!-- 		<include name ="functional"/> -->
+<!-- 		<include name ="sanity"/> -->
+<!-- 		<include name ="critical"/> -->
+<!-- 		<include name ="regression"/> -->
+	</run>
+</groups>
+	<listeners>
+		<listener class-name="utils.ExtentReportManager"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="os" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+     <class name="tests.SignUpTest"/>
+      <class name="tests.LogInTest"/>
+      <class name="tests.AboutUsPageTest"/>
+      <class name="tests.HomePageTest"/>
+      <class name="tests.ContactPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,58 @@
+[WARN ] 14-07-2025 21:34:40 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\grouping.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 14-07-2025 21:34:41 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\grouping.xml
+
+[INFO ] 14-07-2025 21:34:41 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 21:34:42 [main] BaseTest - Launched Chrome browser
+[INFO ] 14-07-2025 21:34:43 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 21:34:43 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 21:34:44 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 14-07-2025 21:34:54 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 14-07-2025 21:34:55 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 14-07-2025 21:34:55 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 14-07-2025 21:34:56 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 14-07-2025 21:34:56 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 14-07-2025 21:34:56 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 14-07-2025 21:37:51 [main] TestNGContentHandler - Failed to read [/D:/DucThanh/demoblaze/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///D:/DucThanh/demoblaze/testng-1.0.dtd].
+[WARN ] 14-07-2025 21:37:51 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\grouping.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 14-07-2025 21:37:51 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\grouping.xml
+
+[INFO ] 14-07-2025 21:37:52 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 21:37:53 [main] BaseTest - Launched Chrome browser
+[INFO ] 14-07-2025 21:37:54 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 21:37:54 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 21:37:54 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Logo is displayed successfully
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Navbar items count is correct
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Carousel has 3 slides
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Carousel is displayed
+[INFO ] 14-07-2025 21:37:55 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 14-07-2025 21:38:05 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 14-07-2025 21:38:06 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 14-07-2025 21:38:06 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 14-07-2025 21:38:07 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 14-07-2025 21:38:07 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 14-07-2025 21:38:07 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 14-07-2025 21:45:00 [main] TestNGContentHandler - Failed to read [/D:/DucThanh/demoblaze/testng-1.0.dtd] from CLASSPATH. Attempting to read from [file:///D:/DucThanh/demoblaze/testng-1.0.dtd].
+[WARN ] 14-07-2025 21:45:01 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\grouping.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 14-07-2025 21:45:01 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\grouping.xml
+
+[INFO ] 14-07-2025 21:45:01 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 14-07-2025 21:45:03 [main] BaseTest - Launched Chrome browser
+[INFO ] 14-07-2025 21:45:04 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 14-07-2025 21:45:04 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 14-07-2025 21:45:04 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 14-07-2025 21:45:05 [main] BaseTest - Logo is displayed successfully

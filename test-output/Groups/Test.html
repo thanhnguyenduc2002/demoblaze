@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 14 21:52:26 GMT+07:00 2025</td>
+<td>Started on:</td><td>Tue Jul 15 17:53:18 GMT+07:00 2025</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18509 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10963 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>ui </td>
 </tr><tr>
@@ -76,29 +76,58 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTest.verifyCarouselAutoSlides()'><b>verifyCarouselAutoSlides</b><br>Test class: tests.HomePageTest</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a9d606cdc19d64c323ad7c38ee1930e0)] -&gt; xpath: //img[@alt=&apos;Second slide&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+<td title='tests.HomePageTest.verifyClickPrevOnCarousel()'><b>verifyClickPrevOnCarousel</b><br>Test class: tests.HomePageTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; is not clickable at point (356, 10). Other element would receive the click: &lt;div class=&quot;col-lg-3&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=138.0.7204.101)
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\mrdon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54708/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9d606cdc19d64c323ad7c38ee1930e0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.HomePage.carouselAutoSlides(HomePage.java:188)
-	at tests.HomePageTest.verifyCarouselAutoSlides(HomePageTest.java:60)
+Command: [286deebeb416bc3108765308361558de, clickElement {id=f.B86A8FB58D16C62AB77F847ABC28E016.d.7D2ED454E02385E89F7551D819090859.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\mrdon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53081/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (286deebeb416bc3108765308361558de)] -&gt; xpath: //span[@class=&apos;carousel-control-prev-icon&apos;]]
+Session ID: 286deebeb416bc3108765308361558de
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at pages.HomePage.clickPrevOnCarousel(HomePage.java:180)
+	at tests.HomePageTest.verifyClickPrevOnCarousel(HomePageTest.java:76)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1021656938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1021656938'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a9d606cdc19d64c323ad7c38ee1930e0)] -&gt; xpath: //img[@alt=&apos;Second slide&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace832322085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace832322085'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; is not clickable at point (356, 10). Other element would receive the click: &lt;div class=&quot;col-lg-3&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=138.0.7204.101)
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\mrdon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54708/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9d606cdc19d64c323ad7c38ee1930e0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.HomePage.carouselAutoSlides(HomePage.java:188)
-	at tests.HomePageTest.verifyCarouselAutoSlides(HomePageTest.java:60)
+Command: [286deebeb416bc3108765308361558de, clickElement {id=f.B86A8FB58D16C62AB77F847ABC28E016.d.7D2ED454E02385E89F7551D819090859.e.2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\mrdon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53081/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (286deebeb416bc3108765308361558de)] -&gt; xpath: //span[@class=&apos;carousel-control-prev-icon&apos;]]
+Session ID: 286deebeb416bc3108765308361558de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
+	at pages.HomePage.clickPrevOnCarousel(HomePage.java:180)
+	at tests.HomePageTest.verifyClickPrevOnCarousel(HomePageTest.java:76)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -126,8 +155,8 @@ Session ID: a9d606cdc19d64c323ad7c38ee1930e0
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>10</td>
-<td>tests.HomePageTest@69653e16</td></tr>
+<td>1</td>
+<td>tests.HomePageTest@7642df8f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -138,40 +167,45 @@ Session ID: a9d606cdc19d64c323ad7c38ee1930e0
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@69653e16</td></tr>
-<tr>
 <td title='tests.HomePageTest.verifyCarouselIsDisplayed()'><b>verifyCarouselIsDisplayed</b><br>Test class: tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.HomePageTest@69653e16</td></tr>
-<tr>
-<td title='tests.HomePageTest.verifyCarouselHasThreeSlides()'><b>verifyCarouselHasThreeSlides</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@69653e16</td></tr>
-<tr>
-<td title='tests.HomePageTest.verifyClickNextOnCarousel()'><b>verifyClickNextOnCarousel</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>1</td>
-<td>tests.HomePageTest@69653e16</td></tr>
+<td>tests.HomePageTest@7642df8f</td></tr>
 <tr>
 <td title='tests.HomePageTest.verifyNavbarItemsDisplayed()'><b>verifyNavbarItemsDisplayed</b><br>Test class: tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.HomePageTest@69653e16</td></tr>
+<td>tests.HomePageTest@7642df8f</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyCarouselHasThreeSlides()'><b>verifyCarouselHasThreeSlides</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7642df8f</td></tr>
 <tr>
 <td title='tests.HomePageTest.verifyLogoIsDisplayed()'><b>verifyLogoIsDisplayed</b><br>Test class: tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>tests.HomePageTest@69653e16</td></tr>
+<td>tests.HomePageTest@7642df8f</td></tr>
 <tr>
-<td title='tests.HomePageTest.verifyClickPrevOnCarousel()'><b>verifyClickPrevOnCarousel</b><br>Test class: tests.HomePageTest</td>
+<td title='tests.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: tests.HomePageTest</td>
 <td></td>
-<td>1</td>
-<td>tests.HomePageTest@69653e16</td></tr>
+<td>0</td>
+<td>tests.HomePageTest@7642df8f</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyClickNextOnCarousel()'><b>verifyClickNextOnCarousel</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7642df8f</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyProductListIsVisible()'><b>verifyProductListIsVisible</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7642df8f</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyCarouselAutoSlides()'><b>verifyCarouselAutoSlides</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>4</td>
+<td>tests.HomePageTest@7642df8f</td></tr>
 </table><p>
 </body>
 </html>

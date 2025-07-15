@@ -5,6 +5,7 @@
     <listener class-name="utils.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
@@ -16,7 +17,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyCarouselAutoSlides"/>
+          <include name="verifyClickPrevOnCarousel"/>
         </methods>
       </class> <!-- tests.HomePageTest -->
     </classes>

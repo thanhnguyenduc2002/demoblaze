@@ -1,28 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="18" total="27" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T17:53:18 GMT+07:00" name="Groups" finished-at="2025-07-15T17:53:29 GMT+07:00" duration-ms="10963">
+  <suite started-at="2025-08-04T21:22:11 GMT+07:00" name="Suite" finished-at="2025-08-04T21:23:22 GMT+07:00" duration-ms="71650">
     <groups>
+      <group name="filter">
+        <method signature="HomePageTest.verifyFilterPhones()[pri:10, instance:tests.HomePageTest@512535ff]" name="verifyFilterPhones" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyFilterLaptops()[pri:11, instance:tests.HomePageTest@512535ff]" name="verifyFilterLaptops" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyFilterMonitors()[pri:12, instance:tests.HomePageTest@512535ff]" name="verifyFilterMonitors" class="tests.HomePageTest"/>
+      </group> <!-- filter -->
+      <group name="popup">
+        <method signature="HomePageTest.verifyContactPopup()[pri:17, instance:tests.HomePageTest@512535ff]" name="verifyContactPopup" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyLoginPopup()[pri:18, instance:tests.HomePageTest@512535ff]" name="verifyLoginPopup" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyAboutUsPopup()[pri:19, instance:tests.HomePageTest@512535ff]" name="verifyAboutUsPopup" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifySignUpPopup()[pri:20, instance:tests.HomePageTest@512535ff]" name="verifySignUpPopup" class="tests.HomePageTest"/>
+      </group> <!-- popup -->
+      <group name="navigation">
+        <method signature="HomePageTest.verifyNextPageNavigation()[pri:13, instance:tests.HomePageTest@512535ff]" name="verifyNextPageNavigation" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyPrevPageNavigation()[pri:14, instance:tests.HomePageTest@512535ff]" name="verifyPrevPageNavigation" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyProductDetailNavigation()[pri:15, instance:tests.HomePageTest@512535ff]" name="verifyProductDetailNavigation" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCartPageNavigation()[pri:16, instance:tests.HomePageTest@512535ff]" name="verifyCartPageNavigation" class="tests.HomePageTest"/>
+      </group> <!-- navigation -->
       <group name="ui">
-        <method signature="HomePageTest.verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@7642df8f]" name="verifyHomePageTitle" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyLogoIsDisplayed()[pri:2, instance:tests.HomePageTest@7642df8f]" name="verifyLogoIsDisplayed" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyNavbarItemsDisplayed()[pri:3, instance:tests.HomePageTest@7642df8f]" name="verifyNavbarItemsDisplayed" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyCarouselHasThreeSlides()[pri:4, instance:tests.HomePageTest@7642df8f]" name="verifyCarouselHasThreeSlides" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyCarouselIsDisplayed()[pri:5, instance:tests.HomePageTest@7642df8f]" name="verifyCarouselIsDisplayed" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyCarouselAutoSlides()[pri:6, instance:tests.HomePageTest@7642df8f]" name="verifyCarouselAutoSlides" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyClickNextOnCarousel()[pri:7, instance:tests.HomePageTest@7642df8f]" name="verifyClickNextOnCarousel" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyClickPrevOnCarousel()[pri:8, instance:tests.HomePageTest@7642df8f]" name="verifyClickPrevOnCarousel" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@7642df8f]" name="verifyProductListIsVisible" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@512535ff]" name="verifyHomePageTitle" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyLogoIsDisplayed()[pri:2, instance:tests.HomePageTest@512535ff]" name="verifyLogoIsDisplayed" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyNavbarItemsDisplayed()[pri:3, instance:tests.HomePageTest@512535ff]" name="verifyNavbarItemsDisplayed" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCarouselHasThreeSlides()[pri:4, instance:tests.HomePageTest@512535ff]" name="verifyCarouselHasThreeSlides" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCarouselIsDisplayed()[pri:5, instance:tests.HomePageTest@512535ff]" name="verifyCarouselIsDisplayed" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCarouselAutoSlides()[pri:6, instance:tests.HomePageTest@512535ff]" name="verifyCarouselAutoSlides" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickNextOnCarousel()[pri:7, instance:tests.HomePageTest@512535ff]" name="verifyClickNextOnCarousel" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickPrevOnCarousel()[pri:8, instance:tests.HomePageTest@512535ff]" name="verifyClickPrevOnCarousel" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@512535ff]" name="verifyProductListIsVisible" class="tests.HomePageTest"/>
       </group> <!-- ui -->
+      <group name="smoke">
+        <method signature="HomePageTest.verifyAddtoCart()[pri:21, instance:tests.HomePageTest@512535ff]" name="verifyAddtoCart" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCheckOutSuccessful()[pri:23, instance:tests.HomePageTest@512535ff]" name="verifyCheckOutSuccessful" class="tests.HomePageTest"/>
+      </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="HomePageTest.verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@7642df8f]" name="verifyHomePageTitle" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@7642df8f]" name="verifyProductListIsVisible" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@512535ff]" name="verifyHomePageTitle" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@512535ff]" name="verifyProductListIsVisible" class="tests.HomePageTest"/>
       </group> <!-- sanity -->
+      <group name="cart">
+        <method signature="HomePageTest.verifyAddtoCart()[pri:21, instance:tests.HomePageTest@512535ff]" name="verifyAddtoCart" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyDeleteProductFromCart()[pri:22, instance:tests.HomePageTest@512535ff]" name="verifyDeleteProductFromCart" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyCheckOutSuccessful()[pri:23, instance:tests.HomePageTest@512535ff]" name="verifyCheckOutSuccessful" class="tests.HomePageTest"/>
+      </group> <!-- cart -->
     </groups>
-    <test started-at="2025-07-15T17:53:18 GMT+07:00" name="Test" finished-at="2025-07-15T17:53:29 GMT+07:00" duration-ms="10963">
+    <test started-at="2025-08-04T21:22:11 GMT+07:00" name="Test" finished-at="2025-08-04T21:23:22 GMT+07:00" duration-ms="71650">
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:18 GMT+07:00" name="setup" finished-at="2025-07-15T17:53:21 GMT+07:00" duration-ms="3010" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:11 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:13 GMT+07:00" duration-ms="2600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,116 +64,543 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:21 GMT+07:00" name="verifyHomePageTitle" finished-at="2025-07-15T17:53:21 GMT+07:00" duration-ms="19" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:13 GMT+07:00" name="verifyHomePageTitle" finished-at="2025-08-04T21:22:13 GMT+07:00" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method signature="verifyLogoIsDisplayed()[pri:2, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:21 GMT+07:00" name="verifyLogoIsDisplayed" finished-at="2025-07-15T17:53:21 GMT+07:00" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:13 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:14 GMT+07:00" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:14 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:16 GMT+07:00" duration-ms="1773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogoIsDisplayed()[pri:2, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:16 GMT+07:00" name="verifyLogoIsDisplayed" finished-at="2025-08-04T21:22:16 GMT+07:00" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoIsDisplayed -->
-        <test-method signature="verifyNavbarItemsDisplayed()[pri:3, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:21 GMT+07:00" name="verifyNavbarItemsDisplayed" finished-at="2025-07-15T17:53:21 GMT+07:00" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:16 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:16 GMT+07:00" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:16 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:17 GMT+07:00" duration-ms="1740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNavbarItemsDisplayed()[pri:3, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:17 GMT+07:00" name="verifyNavbarItemsDisplayed" finished-at="2025-08-04T21:22:18 GMT+07:00" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavbarItemsDisplayed -->
-        <test-method signature="verifyCarouselHasThreeSlides()[pri:4, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:21 GMT+07:00" name="verifyCarouselHasThreeSlides" finished-at="2025-07-15T17:53:22 GMT+07:00" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:18 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:18 GMT+07:00" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:18 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:19 GMT+07:00" duration-ms="1671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCarouselHasThreeSlides()[pri:4, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:19 GMT+07:00" name="verifyCarouselHasThreeSlides" finished-at="2025-08-04T21:22:20 GMT+07:00" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarouselHasThreeSlides -->
-        <test-method signature="verifyCarouselIsDisplayed()[pri:5, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:22 GMT+07:00" name="verifyCarouselIsDisplayed" finished-at="2025-07-15T17:53:22 GMT+07:00" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:20 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:20 GMT+07:00" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:20 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:21 GMT+07:00" duration-ms="1616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCarouselIsDisplayed()[pri:5, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:21 GMT+07:00" name="verifyCarouselIsDisplayed" finished-at="2025-08-04T21:22:21 GMT+07:00" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarouselIsDisplayed -->
-        <test-method signature="verifyCarouselAutoSlides()[pri:6, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:22 GMT+07:00" name="verifyCarouselAutoSlides" finished-at="2025-07-15T17:53:26 GMT+07:00" duration-ms="4809" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:21 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:22 GMT+07:00" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:22 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:23 GMT+07:00" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCarouselAutoSlides()[pri:6, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:23 GMT+07:00" name="verifyCarouselAutoSlides" finished-at="2025-08-04T21:22:28 GMT+07:00" duration-ms="5276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarouselAutoSlides -->
-        <test-method signature="verifyClickNextOnCarousel()[pri:7, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:26 GMT+07:00" name="verifyClickNextOnCarousel" finished-at="2025-07-15T17:53:27 GMT+07:00" duration-ms="711" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:28 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:28 GMT+07:00" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:28 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:30 GMT+07:00" duration-ms="1715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyClickNextOnCarousel()[pri:7, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:30 GMT+07:00" name="verifyClickNextOnCarousel" finished-at="2025-08-04T21:22:31 GMT+07:00" duration-ms="1264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickNextOnCarousel -->
-        <test-method signature="verifyClickPrevOnCarousel()[pri:8, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:27 GMT+07:00" name="verifyClickPrevOnCarousel" finished-at="2025-07-15T17:53:28 GMT+07:00" duration-ms="1120" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span class="carousel-control-prev-icon" aria-hidden="true"></span> is not clickable at point (356, 10). Other element would receive the click: <div class="col-lg-3">...</div>
-  (Session info: chrome=138.0.7204.101)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [286deebeb416bc3108765308361558de, clickElement {id=f.B86A8FB58D16C62AB77F847ABC28E016.d.7D2ED454E02385E89F7551D819090859.e.2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\mrdon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53081/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (286deebeb416bc3108765308361558de)] -> xpath: //span[@class='carousel-control-prev-icon']]
-Session ID: 286deebeb416bc3108765308361558de]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="carousel-control-prev-icon" aria-hidden="true"></span> is not clickable at point (356, 10). Other element would receive the click: <div class="col-lg-3">...</div>
-  (Session info: chrome=138.0.7204.101)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [286deebeb416bc3108765308361558de, clickElement {id=f.B86A8FB58D16C62AB77F847ABC28E016.d.7D2ED454E02385E89F7551D819090859.e.2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\mrdon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53081/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (286deebeb416bc3108765308361558de)] -> xpath: //span[@class='carousel-control-prev-icon']]
-Session ID: 286deebeb416bc3108765308361558de
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)
-at pages.HomePage.clickPrevOnCarousel(HomePage.java:180)
-at tests.HomePageTest.verifyClickPrevOnCarousel(HomePageTest.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:31 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:31 GMT+07:00" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:31 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:33 GMT+07:00" duration-ms="1776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyClickPrevOnCarousel()[pri:8, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:33 GMT+07:00" name="verifyClickPrevOnCarousel" finished-at="2025-08-04T21:22:33 GMT+07:00" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickPrevOnCarousel -->
-        <test-method signature="verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:28 GMT+07:00" name="verifyProductListIsVisible" finished-at="2025-07-15T17:53:29 GMT+07:00" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:33 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:34 GMT+07:00" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:34 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:35 GMT+07:00" duration-ms="1767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductListIsVisible()[pri:9, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:35 GMT+07:00" name="verifyProductListIsVisible" finished-at="2025-08-04T21:22:36 GMT+07:00" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductListIsVisible -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@7642df8f]" started-at="2025-07-15T17:53:29 GMT+07:00" name="tearDown" finished-at="2025-07-15T17:53:29 GMT+07:00" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:36 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:36 GMT+07:00" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:36 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:38 GMT+07:00" duration-ms="1738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFilterPhones()[pri:10, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:38 GMT+07:00" name="verifyFilterPhones" finished-at="2025-08-04T21:22:39 GMT+07:00" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterPhones -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:39 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:39 GMT+07:00" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:39 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:40 GMT+07:00" duration-ms="1486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFilterLaptops()[pri:11, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:40 GMT+07:00" name="verifyFilterLaptops" finished-at="2025-08-04T21:22:41 GMT+07:00" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterLaptops -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:41 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:41 GMT+07:00" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:41 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:43 GMT+07:00" duration-ms="1684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFilterMonitors()[pri:12, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:43 GMT+07:00" name="verifyFilterMonitors" finished-at="2025-08-04T21:22:43 GMT+07:00" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterMonitors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:43 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:44 GMT+07:00" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:44 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:45 GMT+07:00" duration-ms="1566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNextPageNavigation()[pri:13, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:45 GMT+07:00" name="verifyNextPageNavigation" finished-at="2025-08-04T21:22:47 GMT+07:00" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNextPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:47 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:47 GMT+07:00" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:47 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:48 GMT+07:00" duration-ms="1760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPrevPageNavigation()[pri:14, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:48 GMT+07:00" name="verifyPrevPageNavigation" finished-at="2025-08-04T21:22:49 GMT+07:00" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrevPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:49 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:50 GMT+07:00" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:50 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:51 GMT+07:00" duration-ms="1485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductDetailNavigation()[pri:15, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:51 GMT+07:00" name="verifyProductDetailNavigation" finished-at="2025-08-04T21:22:52 GMT+07:00" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:52 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:52 GMT+07:00" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:52 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:54 GMT+07:00" duration-ms="1733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCartPageNavigation()[pri:16, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:54 GMT+07:00" name="verifyCartPageNavigation" finished-at="2025-08-04T21:22:55 GMT+07:00" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:55 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:55 GMT+07:00" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:55 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:57 GMT+07:00" duration-ms="1539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContactPopup()[pri:17, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:57 GMT+07:00" name="verifyContactPopup" finished-at="2025-08-04T21:22:57 GMT+07:00" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:57 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:22:58 GMT+07:00" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:58 GMT+07:00" name="setup" finished-at="2025-08-04T21:22:59 GMT+07:00" duration-ms="1743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPopup()[pri:18, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:22:59 GMT+07:00" name="verifyLoginPopup" finished-at="2025-08-04T21:23:00 GMT+07:00" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:00 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:23:00 GMT+07:00" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:00 GMT+07:00" name="setup" finished-at="2025-08-04T21:23:02 GMT+07:00" duration-ms="1581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAboutUsPopup()[pri:19, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:02 GMT+07:00" name="verifyAboutUsPopup" finished-at="2025-08-04T21:23:02 GMT+07:00" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutUsPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:02 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:23:03 GMT+07:00" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:03 GMT+07:00" name="setup" finished-at="2025-08-04T21:23:04 GMT+07:00" duration-ms="1368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignUpPopup()[pri:20, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:04 GMT+07:00" name="verifySignUpPopup" finished-at="2025-08-04T21:23:05 GMT+07:00" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:05 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:23:05 GMT+07:00" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:05 GMT+07:00" name="setup" finished-at="2025-08-04T21:23:06 GMT+07:00" duration-ms="1377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddtoCart()[pri:21, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:06 GMT+07:00" name="verifyAddtoCart" finished-at="2025-08-04T21:23:10 GMT+07:00" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddtoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:10 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:23:10 GMT+07:00" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:10 GMT+07:00" name="setup" finished-at="2025-08-04T21:23:11 GMT+07:00" duration-ms="1621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDeleteProductFromCart()[pri:22, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:11 GMT+07:00" name="verifyDeleteProductFromCart" finished-at="2025-08-04T21:23:16 GMT+07:00" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:16 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:23:16 GMT+07:00" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:16 GMT+07:00" name="setup" finished-at="2025-08-04T21:23:18 GMT+07:00" duration-ms="1730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckOutSuccessful()[pri:23, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:18 GMT+07:00" name="verifyCheckOutSuccessful" finished-at="2025-08-04T21:23:22 GMT+07:00" duration-ms="4393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutSuccessful -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@512535ff]" started-at="2025-08-04T21:23:22 GMT+07:00" name="tearDown" finished-at="2025-08-04T21:23:22 GMT+07:00" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HomePageTest -->
     </test> <!-- Test -->
-  </suite> <!-- Groups -->
+  </suite> <!-- Suite -->
 </testng-results>

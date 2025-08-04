@@ -1,0 +1,64 @@
+[INFO ] 04-08-2025 20:48:54 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:48:54 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:48:54 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:48:55 [main] BaseTest - Running test: verifyFilterMonitors
+[INFO ] 04-08-2025 20:48:55 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:48:55 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 04-08-2025 20:50:13 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\testng.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 04-08-2025 20:50:13 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\testng.xml
+
+[INFO ] 04-08-2025 20:50:13 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:14 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:15 [main] BaseTest - Running test: verifyHomePageTitle
+[INFO ] 04-08-2025 20:50:15 [main] BaseTest - Verified homepage title is 'STORE'
+[INFO ] 04-08-2025 20:50:15 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:15 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:15 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:16 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:17 [main] BaseTest - Running test: verifyLogoIsDisplayed
+[INFO ] 04-08-2025 20:50:17 [main] BaseTest - Logo is displayed successfully
+[INFO ] 04-08-2025 20:50:17 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:17 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:17 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:18 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:19 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 04-08-2025 20:50:19 [main] BaseTest - Navbar items count is correct
+[INFO ] 04-08-2025 20:50:19 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:19 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:19 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:20 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:21 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 04-08-2025 20:50:21 [main] BaseTest - Carousel has 3 slides
+[INFO ] 04-08-2025 20:50:21 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:21 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:21 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:22 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:22 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 04-08-2025 20:50:22 [main] BaseTest - Carousel is displayed
+[INFO ] 04-08-2025 20:50:22 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:22 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:22 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:23 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:24 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 04-08-2025 20:50:29 [main] BaseTest - Carousel auto-slide verified
+[INFO ] 04-08-2025 20:50:29 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:30 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:30 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:30 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:32 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 04-08-2025 20:50:33 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 04-08-2025 20:50:33 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:33 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:33 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:34 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:35 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 04-08-2025 20:50:35 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 04-08-2025 20:50:35 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 20:50:35 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 20:50:35 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 20:50:36 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 20:50:37 [main] BaseTest - Running test: verifyProductListIsVisible
+[INFO ] 04-08-2025 20:50:37 [main] BaseTest - ------List of Product------
+[INFO ] 04-08-2025 20:50:37 [main] BaseTest - Product list is visible with correct count
+[INFO ] 04-08-2025 20:50:37 [main] BaseTest - ===== Starting test teardown =====

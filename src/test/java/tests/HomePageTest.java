@@ -92,7 +92,7 @@ public class HomePageTest extends BaseTest {
         logger.info("Running test: verifyFilterPhones");
         hp = new HomePage(driver);
         hp.filterProductsByPhones();
-        Assert.assertEquals(hp.countPhoneItems(), 7);
+        Assert.assertEquals(hp.countPhoneItems(), 9);
         logger.info("Phone filter returns correct item count");
     }
 

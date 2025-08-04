@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LogInTest">
+      <class name="tests.HomePageTest">
         <methods>
+          <include name="verifyLogoIsDisplayed"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyLogin" invocation-numbers="0"/>
+          <include name="verifyClickNextOnCarousel"/>
+          <include name="verifyCarouselIsDisplayed"/>
+          <include name="verifyNavbarItemsDisplayed"/>
+          <include name="verifyCarouselHasThreeSlides"/>
+          <include name="verifyCarouselAutoSlides"/>
+          <include name="verifyHomePageTitle"/>
         </methods>
-      </class> <!-- tests.LogInTest -->
+      </class> <!-- tests.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

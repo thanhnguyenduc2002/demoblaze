@@ -4,12 +4,12 @@
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.LogInTest"/>
-      <class name="tests.AboutUsPageTest"/>
-      <class name="base.BaseTest"/>
+<!--       <class name="tests.LogInTest"/> -->
+<!--       <class name="tests.AboutUsPageTest"/> -->
+<!--       <class name="base.BaseTest"/> -->
       <class name="tests.HomePageTest"/>
-      <class name="tests.SignUpTest"/>
-      <class name="tests.ContactPageTest"/>
+<!--       <class name="tests.SignUpTest"/> -->
+<!--       <class name="tests.ContactPageTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

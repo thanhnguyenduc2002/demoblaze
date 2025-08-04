@@ -14,9 +14,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import base.BaseAction;
+
 public class HomePage {
 
-    private WebDriver driver;
+	public static WebDriver driver;
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -167,19 +169,15 @@ public class HomePage {
     }
 
     public boolean clickNextOnCarousel() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement clickNextIcon = wait.until(ExpectedConditions.elementToBeClickable(carouselNextIcon));
-        clickNextIcon.click();
-        wait.until(ExpectedConditions.invisibilityOf(firstSlide));
-        return firstSlide.isDisplayed();
+    	BaseAction action = new BaseAction();
+    	action.clickOnCarousel(carouselNextIcon,firstSlide);
+    	return firstSlide.isDisplayed();
     }
 
     public boolean clickPrevOnCarousel() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        WebElement clickPrevIcon = wait.until(ExpectedConditions.elementToBeClickable(carouselPrevIcon));
-        clickPrevIcon.click();
-        wait.until(ExpectedConditions.invisibilityOf(secondSlide));
-        return firstSlide.isDisplayed();
+    	BaseAction action = new BaseAction();
+    	action.clickOnCarousel(carouselPrevIcon,secondSlide);
+    	return firstSlide.isDisplayed();
     }
 
     public boolean carouselAutoSlides() {
@@ -203,18 +201,8 @@ public class HomePage {
     }
 
     public List<WebElement> filterProductsByPhones() {
-        int initialCount = driver.findElements(By.cssSelector(".card-block")).size();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        categoriesPhones.click();
-        wait.until(driver -> driver.findElements(By.cssSelector(".card-block")).size() != initialCount);
-
-        List<WebElement> phones = driver.findElements(By.className("card-block"));
-        for (WebElement phone : phones) {
-            String phoneName = phone.findElement(By.className("card-title")).getText();
-            System.out.println("Name Product: " + phoneName);
-        }
-        System.out.println("There are 7 mobile phones in web");
-        return phones;
+    	BaseAction action = new BaseAction();
+    	return action.filterProducts(categoriesLaptops, "//h4[@class='card-title']/a[text()='Samsung galaxy s6']");
     }
 
     public int countPhoneItems() {
@@ -222,18 +210,8 @@ public class HomePage {
     }
 
     public List<WebElement> filterProductsByLaptops() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        categoriesLaptops.click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(
-                By.xpath("//h4[@class='card-title']/a[text()='MacBook air']")));
-
-        List<WebElement> laptops = driver.findElements(By.className("card-block"));
-        for (WebElement laptop : laptops) {
-            String laptopName = laptop.findElement(By.className("card-title")).getText();
-            System.out.println("Name Product: " + laptopName);
-        }
-        System.out.println("There are 6 laptops in web");
-        return laptops;
+     	BaseAction action = new BaseAction();
+     	return action.filterProducts(categoriesLaptops, "//h4[@class='card-title']/a[text()='MacBook air']");
     }
 
     public int countLaptopItems() {
@@ -241,18 +219,8 @@ public class HomePage {
     }
 
     public List<WebElement> filterProductsByMonitors() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        categoriesMonitors.click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(
-                By.xpath("//h4[@class='card-title']/a[text()='ASUS Full HD']")));
-
-        List<WebElement> monitors = driver.findElements(By.className("card-block"));
-        for (WebElement monitor : monitors) {
-            String monitorName = monitor.findElement(By.className("card-title")).getText();
-            System.out.println("Name Product: " + monitorName);
-        }
-        System.out.println("There are 2 monitors in web");
-        return monitors;
+    	BaseAction action = new BaseAction();
+    	return action.filterProducts(categoriesMonitors, "//h4[@class='card-title']/a[text()='ASUS Full HD']");
     }
 
     public int countMonitorItems() {
@@ -260,37 +228,17 @@ public class HomePage {
     }
 
     public boolean nextPageNavigation() {
-        logoProductStore.click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.presenceOfElementLocated(
-        By.xpath("//h4[@class='card-title']/a[text()='Samsung galaxy s6']")));
-        nextButton.click();
-        try {
-            WebElement macbook = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("//h4[@class='card-title']/a[text()='MacBook air']")));
-            return macbook.isDisplayed();
-        } catch (TimeoutException e) {
-            System.out.println("Cannot find MacBook air.");
-            return false;
-        }
+    	BaseAction action = new BaseAction();
+    	return  action.clickPageNavigation(nextButton, 
+    	"//h4[@class='card-title']/a[text()='Samsung galaxy s6']", 
+    	"//h4[@class='card-title']/a[text()='MacBook air']");
     }
     
     public boolean prevPageNavigation() {
-        logoProductStore.click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.presenceOfElementLocated(
-                By.xpath("//h4[@class='card-title']/a[text()='MacBook air']")));
-
-        prevButton.click();
-
-        try {
-            WebElement macbook = wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("//h4[@class='card-title']/a[text()='Samsung galaxy s7']")));
-            return macbook.isDisplayed();
-        } catch (TimeoutException e) {
-            System.out.println("Cannot find MacBook air.");
-            return false;
-        }
+    	BaseAction action = new BaseAction();
+    	return  action.clickPageNavigation(nextButton, 
+    	"//h4[@class='card-title']/a[text()='MacBook air']", 
+    	"//h4[@class='card-title']/a[text()='Samsung galaxy s7']");
     }
     
     public void ProductDetailNavigation() {
@@ -306,39 +254,23 @@ public class HomePage {
     }
     
     public boolean contactPopup() {
-    	logoProductStore.click();
-    	menuContact.click();
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    	wait.until(ExpectedConditions.visibilityOf(contactPopup));
-    	closeContactPopup.click();
-    	return contactPopup.isDisplayed();
+    	BaseAction action = new BaseAction();
+    	return action.checkPopup(menuContact, contactPopup, closeContactPopup);
     }
     
     public boolean aboutUsPopup() {
-    	logoProductStore.click();
-    	menuAboutUs.click();
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    	wait.until(ExpectedConditions.visibilityOf(aboutUsPopup));
-    	closeAboutUsPopup.click();
-    	return aboutUsPopup.isDisplayed();
+    	BaseAction action = new BaseAction();
+    	return action.checkPopup(menuAboutUs, aboutUsPopup, closeAboutUsPopup);
     }
     
     public boolean logInPopup() {
-    	logoProductStore.click();
-    	menuLogin.click();
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    	wait.until(ExpectedConditions.visibilityOf(logInPopup));
-    	closeLogInPopup.click();
-    	return logInPopup.isDisplayed();
+    	BaseAction action = new BaseAction();
+    	return action.checkPopup(menuLogin, logInPopup, closeLogInPopup);
     }
     
     public boolean signUpPopup() {
-    	logoProductStore.click();
-    	menuSignUp.click();
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    	wait.until(ExpectedConditions.visibilityOf(signUpPopup));
-    	closeSignUpPopup.click();
-    	return signUpPopup.isDisplayed();
+    	BaseAction action = new BaseAction();
+    	return action.checkPopup(menuSignUp, signUpPopup, closeSignUpPopup);
     }
     
     public boolean addToCart() {

@@ -1,0 +1,65 @@
+[INFO ] 04-08-2025 21:22:39 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:39 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:39 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:39 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:40 [main] BaseTest - Running test: verifyFilterLaptops
+[INFO ] 04-08-2025 21:22:41 [main] BaseTest - Laptop filter returns correct item count
+[INFO ] 04-08-2025 21:22:41 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:41 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:41 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:42 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:43 [main] BaseTest - Running test: verifyFilterMonitors
+[INFO ] 04-08-2025 21:22:43 [main] BaseTest - Monitor filter returns correct item count
+[INFO ] 04-08-2025 21:22:43 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:44 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:44 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:44 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:45 [main] BaseTest - Running test: verifyNextPageNavigation
+[INFO ] 04-08-2025 21:22:47 [main] BaseTest - Next page navigation works correctly
+[INFO ] 04-08-2025 21:22:47 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:47 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:47 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:47 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:48 [main] BaseTest - Running test: verifyPrevPageNavigation
+[INFO ] 04-08-2025 21:22:49 [main] BaseTest - Previous page navigation works correctly
+[INFO ] 04-08-2025 21:22:49 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:50 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:50 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:50 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:51 [main] BaseTest - Running test: verifyProductDetailNavigation
+[INFO ] 04-08-2025 21:22:52 [main] BaseTest - Navigated to correct product detail page
+[INFO ] 04-08-2025 21:22:52 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:52 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:52 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:53 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:54 [main] BaseTest - Running test: verifyCartPageNavigation
+[INFO ] 04-08-2025 21:22:55 [main] BaseTest - Navigated to cart page
+[INFO ] 04-08-2025 21:22:55 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:55 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:55 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:56 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:57 [main] BaseTest - Running test: verifyContactPopup
+[INFO ] 04-08-2025 21:22:57 [main] BaseTest - Contact popup is displayed
+[INFO ] 04-08-2025 21:22:57 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:22:58 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:22:58 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:22:58 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:22:59 [main] BaseTest - Running test: verifyLoginPopup
+[INFO ] 04-08-2025 21:23:00 [main] BaseTest - Login popup is displayed
+[INFO ] 04-08-2025 21:23:00 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:23:00 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:23:00 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:23:01 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:23:02 [main] BaseTest - Running test: verifyAboutUsPopup
+[INFO ] 04-08-2025 21:23:02 [main] BaseTest - About Us popup is displayed
+[INFO ] 04-08-2025 21:23:02 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:23:03 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:23:03 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:23:03 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:23:04 [main] BaseTest - Running test: verifySignUpPopup
+[INFO ] 04-08-2025 21:23:05 [main] BaseTest - Sign up popup is displayed
+[INFO ] 04-08-2025 21:23:05 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:23:05 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:23:05 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:23:05 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:23:06 [main] BaseTest - Running test: verifyAddtoCart

@@ -1,0 +1,64 @@
+[INFO ] 04-08-2025 21:00:23 [main] BaseTest - Running test: verifyNavbarItemsDisplayed
+[INFO ] 04-08-2025 21:00:23 [main] BaseTest - Navbar items count is correct
+[INFO ] 04-08-2025 21:00:23 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:23 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:23 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:24 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:25 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 04-08-2025 21:00:25 [main] BaseTest - Carousel has 3 slides
+[INFO ] 04-08-2025 21:00:25 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:25 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:25 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:26 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:26 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 04-08-2025 21:00:26 [main] BaseTest - Carousel is displayed
+[INFO ] 04-08-2025 21:00:26 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:27 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:27 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:27 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:28 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 04-08-2025 21:00:33 [main] BaseTest - Carousel auto-slide verified
+[INFO ] 04-08-2025 21:00:33 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:33 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:33 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:34 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:35 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 04-08-2025 21:00:36 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 04-08-2025 21:00:36 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:37 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:37 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:37 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:38 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 04-08-2025 21:00:38 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 04-08-2025 21:00:38 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:38 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:38 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:39 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:40 [main] BaseTest - Running test: verifyProductListIsVisible
+[INFO ] 04-08-2025 21:00:40 [main] BaseTest - ------List of Product------
+[INFO ] 04-08-2025 21:00:40 [main] BaseTest - Product list is visible with correct count
+[INFO ] 04-08-2025 21:00:40 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:41 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:41 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:41 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:42 [main] BaseTest - Running test: verifyFilterPhones
+[INFO ] 04-08-2025 21:00:42 [main] BaseTest - Phone filter returns correct item count
+[INFO ] 04-08-2025 21:00:42 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:43 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:43 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:43 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:44 [main] BaseTest - Running test: verifyFilterLaptops
+[INFO ] 04-08-2025 21:00:45 [main] BaseTest - Laptop filter returns correct item count
+[INFO ] 04-08-2025 21:00:45 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:45 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:00:45 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:00:46 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:00:47 [main] BaseTest - Running test: verifyFilterMonitors
+[INFO ] 04-08-2025 21:00:47 [main] BaseTest - Monitor filter returns correct item count
+[INFO ] 04-08-2025 21:00:47 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:00:47 [main] BaseTest - ===== Teardown complete =====
+[WARN ] 04-08-2025 21:08:41 [main] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\DucThanh\demoblaze\testng.xml] otherwise TestNG may fail or not work as expected.
+[INFO ] 04-08-2025 21:08:42 [main] Utils - [TestNG] Running:
+  D:\DucThanh\demoblaze\testng.xml
+
+[INFO ] 04-08-2025 21:08:42 [main] BaseTest - ===== Starting test setup =====

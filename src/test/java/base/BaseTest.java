@@ -21,8 +21,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openxmlformats.schemas.drawingml.x2006.chart.CTPageSetup;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 	
@@ -34,7 +34,7 @@ public Properties p;
 
 public org.apache.logging.log4j.Logger logger = LogManager.getLogger(BaseTest.class);
 @Parameters({"os", "browser"})
-@BeforeClass(groups = {"ui", "sanity", "smoke","functional", "critical","cart", "regression","signup","contact","login","aboutus"})
+@BeforeMethod(groups = {"ui", "sanity", "smoke","functional", "critical","cart", "regression","signup","contact","login","aboutus"})
 	public void setup(String os,String browser) throws IOException {
 	logger.info("===== Starting test setup =====");
 	FileReader file = new FileReader("D:\\DucThanh\\demoblaze\\src\\test\\resources\\config.properties");
@@ -79,7 +79,7 @@ public org.apache.logging.log4j.Logger logger = LogManager.getLogger(BaseTest.cl
 		driver.manage().window().maximize();
 	}
 	
-@AfterClass(groups = {"ui", "sanity", "smoke","functional", "critical","cart", "regression","signup","contact","login","aboutus"})
+@AfterMethod(groups = {"ui", "sanity", "smoke","functional", "critical","cart", "regression","signup","contact","login","aboutus"})
 	public void tearDown() {
 		logger.info("===== Starting test teardown =====");
 		driver.quit();

@@ -1,0 +1,64 @@
+[INFO ] 04-08-2025 21:12:13 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:14 [main] BaseTest - Running test: verifyCarouselHasThreeSlides
+[INFO ] 04-08-2025 21:12:14 [main] BaseTest - Carousel has 3 slides
+[INFO ] 04-08-2025 21:12:14 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:14 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:14 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:15 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:16 [main] BaseTest - Running test: verifyCarouselIsDisplayed
+[INFO ] 04-08-2025 21:12:16 [main] BaseTest - Carousel is displayed
+[INFO ] 04-08-2025 21:12:16 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:16 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:16 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:17 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:18 [main] BaseTest - Running test: verifyCarouselAutoSlides
+[INFO ] 04-08-2025 21:12:23 [main] BaseTest - Carousel auto-slide verified
+[INFO ] 04-08-2025 21:12:23 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:23 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:23 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:24 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:25 [main] BaseTest - Running test: verifyClickNextOnCarousel
+[INFO ] 04-08-2025 21:12:26 [main] BaseTest - Verified clicking next on carousel returns false (as expected)
+[INFO ] 04-08-2025 21:12:26 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:26 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:26 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:26 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:28 [main] BaseTest - Running test: verifyClickPrevOnCarousel
+[INFO ] 04-08-2025 21:12:28 [main] BaseTest - Verified clicking previous on carousel
+[INFO ] 04-08-2025 21:12:28 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:28 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:28 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:29 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:29 [main] BaseTest - Running test: verifyProductListIsVisible
+[INFO ] 04-08-2025 21:12:29 [main] BaseTest - ------List of Product------
+[INFO ] 04-08-2025 21:12:30 [main] BaseTest - Product list is visible with correct count
+[INFO ] 04-08-2025 21:12:30 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:30 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:30 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:31 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:32 [main] BaseTest - Running test: verifyFilterPhones
+[INFO ] 04-08-2025 21:12:33 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:33 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:33 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:33 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:34 [main] BaseTest - Running test: verifyFilterLaptops
+[INFO ] 04-08-2025 21:12:35 [main] BaseTest - Laptop filter returns correct item count
+[INFO ] 04-08-2025 21:12:35 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:35 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:35 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:36 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:37 [main] BaseTest - Running test: verifyFilterMonitors
+[INFO ] 04-08-2025 21:12:37 [main] BaseTest - Monitor filter returns correct item count
+[INFO ] 04-08-2025 21:12:37 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:37 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:37 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:38 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:39 [main] BaseTest - Running test: verifyNextPageNavigation
+[INFO ] 04-08-2025 21:12:40 [main] BaseTest - Next page navigation works correctly
+[INFO ] 04-08-2025 21:12:40 [main] BaseTest - ===== Starting test teardown =====
+[INFO ] 04-08-2025 21:12:40 [main] BaseTest - ===== Teardown complete =====
+[INFO ] 04-08-2025 21:12:40 [main] BaseTest - ===== Starting test setup =====
+[INFO ] 04-08-2025 21:12:41 [main] BaseTest - ChromeDriver initialized.
+[INFO ] 04-08-2025 21:12:42 [main] BaseTest - Running test: verifyPrevPageNavigation
+[INFO ] 04-08-2025 21:12:43 [main] BaseTest - Previous page navigation works correctly
+[INFO ] 04-08-2025 21:12:43 [main] BaseTest - ===== Starting test teardown =====
